@@ -30,7 +30,7 @@ set ruler	" Show row and column ruler information"
 set undolevels=1000	" Number of undo levels"
 set backspace=indent,eol,start	"Backspace behaviour"
 
- let g:airline_theme='bubblegum'
+let g:airline_theme='bubblegum'
 
 "Vim-Plug"
 call plug#begin('~/.vim/plugged')
