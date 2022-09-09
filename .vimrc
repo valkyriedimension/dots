@@ -40,4 +40,5 @@ Plug 'yggdroot/indentline'
 Plug 'ervandew/supertab'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'ap/vim-css-color'
 call plug#end()
