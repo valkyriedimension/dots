@@ -30,8 +30,21 @@ set ruler	" Show row and column ruler information"
 set undolevels=1000	" Number of undo levels"
 set backspace=indent,eol,start	"Backspace behaviour"
 
+set mouse=a
+
+set laststatus=2
+let g:lightline = {'colorscheme': 'catppuccin_macchiato'}
+set noshowmode
+
+set termguicolors
+colorscheme catppuccin_macchiato 
+
 "Vim-Plug"
 call plug#begin('~/.vim/plugged')
-
 Plug 'rust-lang/rust.vim'
+Plug 'yggdroot/indentline'
+Plug 'ervandew/supertab'
+Plug 'itchyny/lightline.vim'
+Plug 'ap/vim-css-color'
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 call plug#end()
